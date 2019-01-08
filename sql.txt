@@ -1,0 +1,5 @@
+create table AgentUserRelation(agentID varchar2(20) not null,userID varchar2(20) primary key);
+
+insert into AgentUserRelation values('AGE002','USER001');
+insert into AgentUserRelation values('AGE002','USER002');
+insert into AgentUserRelation values('AGE003','Subham');
